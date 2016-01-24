@@ -1,0 +1,6 @@
+name "deimos-avutil"
+description "Deimos Bindings for libavutil."
+license "LGPL-2.1 or later or GPL-2.0 or later"
+importPaths "."
+targetType "sourceLibrary"
+libs "avutil" platform="posix"
