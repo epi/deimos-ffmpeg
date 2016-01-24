@@ -1,6 +1,11 @@
-name "libavutil"
-description "Deimos Bindings for libavutil."
+name "ffmpeg"
+description "Deimos Bindings for FFmpeg/Libav."
 license "LGPL-2.1 or later or GPL-2.0 or later"
-importPaths "."
-targetType "sourceLibrary"
-libs "avutil" platform="posix"
+dependency "ffmpeg:libavutil" version="*"
+targetType "none"
+subPackage {
+	name "libavutil"
+	targetType "sourceLibrary"
+	importPaths "libavutil"
+	libs "avutil" platform="posix"
+}

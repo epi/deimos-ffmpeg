@@ -1,8 +1,8 @@
-# libavutil
+# deimos-ffmpeg
 
-D bindings for libavutil, which is a part of Libav and FFmpeg.
-As a derived work, deimos-avutil retains the original libavutil license.
+D bindings for [FFmpeg](https://www.ffmpeg.org/)/[Libav](https://libav.org/).
 
+As a derived work, deimos-ffmpeg retains the original license.
 Both Libav and FFmpeg are licensed under the following terms:
 
 > Libav/FFmpeg is licensed under the GNU Lesser General Public License (LGPL) version 2.1 or later.
@@ -18,4 +18,3 @@ Both Libav and FFmpeg are licensed under the following terms:
 
 For more information, see [here](https://www.ffmpeg.org/legal.html) and
 [here](https://libav.org/legal).
-
